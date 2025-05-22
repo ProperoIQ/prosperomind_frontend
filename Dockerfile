@@ -15,7 +15,7 @@ COPY . .
 
 # Set environment variables (optional, recommended to use runtime environment variables)
 
-ENV NEXT_PUBLIC_OPENAI_API_KEY='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'
+ENV NEXT_PUBLIC_OPENAI_API_KEY='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'
 
 # Build the Next.js application
 RUN npm run build
